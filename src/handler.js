@@ -6,10 +6,10 @@ function handler(request, response) {
     const types = {
         html: 'text/html',
         css: 'text/css',
-        js: 'applications/javascript'
+        js: 'applications/javascript',
+        ico: "text/x-icon"
     }
-
-    if (request.method === 'GET') {
+    const extension = endpoint.split('.')[1]; 
         if (endpoint === '/') {
             response.writeHead(200, { 'Content-Type': 'text/html' });
             fs.readFile(__dirname + '/../index.html', function(error, file){
@@ -19,8 +19,17 @@ function handler(request, response) {
                 }
                 response.end(file);
             })
+        } else {
+            const filePath = path.join(__dirname, "..", "public", endpoint);
+            fs.readFile(filePath, function(error,file){
+                if(error){
+                    console.log(error);
+                    return;
+                }
+            response.writeHead(200, {"Content-Type":types[extension]})
+            response.end(file);
+            });
         }
-    }
 }
 
 
