@@ -1,0 +1,29 @@
+{
+  "name": "week4-team-pokedex",
+  "version": "1.0.0",
+  "description": "autocomplete widget for plant common names",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape src/tests/*.test.js | tap-spec",
+    "live-test": "nodemon src/tests/*.test.js | tap-spec",
+    "coverage": "nyc istanbul src/tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FAC-Sixteen/week4-team-pokedex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FAC-Sixteen/week4-team-pokedex/issues"
+  },
+  "homepage": "https://github.com/FAC-Sixteen/week4-team-pokedex#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "nodemon": "^1.18.10",
+    "nyc": "^13.3.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1"
+  }
+}
