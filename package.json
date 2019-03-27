@@ -6,7 +6,9 @@
   "scripts": {
     "test": "tape src/tests/*.test.js | tap-spec",
     "live-test": "nodemon src/tests/*.test.js | tap-spec",
-    "coverage": "nyc istanbul src/tests/*.test.js"
+    "coverage": "nyc istanbul src/tests/*.test.js",
+    "start": "node ./src/server.js",
+    "go": "nodemon ./src/server.js"
   },
   "repository": {
     "type": "git",
