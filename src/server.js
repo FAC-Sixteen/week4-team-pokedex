@@ -1,14 +1,15 @@
 const http = require("http");
 const handler = require("./handler.js");
-const handlerJSON = require('./handlerJSON');
+const handlerJSON = require("./handlerJSON");
 
 const server = http.createServer(handler);
 
+const port = process.env.PORT || 8000;
 
-
-server.listen(7000, function () {
-    console.log("Server is listening on port 7000.  Ready to accept requests!");
+server.listen(port, function() {
+  console.log(
+    `Server is listening on port ${port}.  Ready to accept requests!`
+  );
 });
-
 
 module.exports = server;
