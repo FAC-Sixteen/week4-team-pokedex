@@ -5,7 +5,7 @@ const clonePlantArr = () => {
 };
 
 const addPlantArr = x => {
-  jungle.push(x);
+  plantArr.push(x);
 };
 
 const removePlantArr = () => {
