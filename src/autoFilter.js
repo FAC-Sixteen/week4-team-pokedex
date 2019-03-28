@@ -1,5 +1,5 @@
-const searchFilter = require("searchFilter");
-const plantArr = require("plantArr");
+const searchFilter = require("./searchFilter");
+const plantArr = require("./plantArr");
 
 const autoFilter = input => {
   const a = plantArr.clonePlantArr();
