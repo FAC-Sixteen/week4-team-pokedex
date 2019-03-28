@@ -18,9 +18,8 @@ function handlerJSON(request, response){
         }
         const json = JSON.parse(file);
         plantArr.addPlantArr(getCommonNames(json));
-        // console.log(json);
         const autoComplete = autoFilter(input);
-
+        console.log(autoComplete);
         response.writeHead(200, {"Content-Type":"application/json"});
         response.end(autoComplete);
       });
