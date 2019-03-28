@@ -1,8 +1,7 @@
 const http = require("http");
-const handler = require("./handler.js");
-const handlerJSON = require("./handlerJSON");
+const router = require("./router")
 
-const server = http.createServer(handler);
+const server = http.createServer(router);
 
 const port = process.env.PORT || 7000;
 
