@@ -8,7 +8,8 @@ function handler(request, response) {
     css: "text/css",
     js: "applications/javascript",
     ico: "image/x-icon",
-    json: "application/json"
+    json: "application/json",
+    jpg: "image/jpeg"
   };
   const extension = endpoint.split(".")[1];
   if (endpoint === "/") {
