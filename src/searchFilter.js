@@ -9,7 +9,6 @@ const searchFilter = (input, array) => {
       }
     }
   });
-  console.log(a);
   return a;
 };
 
