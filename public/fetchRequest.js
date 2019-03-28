@@ -7,6 +7,7 @@ function fetch(callback) {
       callback(JSON.parse(xhr.responseText));
     }
   };
-  xhr.open("GET", "/src/mealPrep.js", true);
+  xhr.open("GET", "/src/.js", true);
   xhr.send();
 }
+
