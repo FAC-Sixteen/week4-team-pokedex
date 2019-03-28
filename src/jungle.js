@@ -1,4 +1,4 @@
-let jungle = [];
+let jungle = [[COMMON],[COMMON.FLITER(F)],[F.FILTERED(FA)];
 
 const exploreJungle = () => {
   return [...jungle];
