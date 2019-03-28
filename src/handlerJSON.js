@@ -2,9 +2,15 @@ const fs = require('fs');
 // const path = require('path');
 // const objJSON = require('/JSON/plants.json');
 
+
+
+
 function handlerJSON(request, response){
     const endpoint = request.url;
-    if (endpoint === '/query'){
+
+
+
+    
     fs.readFile(__dirname + '/JSON/plants.json',function(error, file){
         if (error) {
             console.log(error);
@@ -13,7 +19,5 @@ function handlerJSON(request, response){
         }
         response.end(JSON.parse(file));
     })
-    }
 }
-
 module.exports = handlerJSON;

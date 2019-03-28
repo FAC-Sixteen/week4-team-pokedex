@@ -3,7 +3,7 @@ const handlerJSON = require('./handlerJSON.js')
 
 const router = (request, response) => {
 const url =  request.url;
-if (url === "/explore") {
+if (url.includes("query")) {
  handlerJSON(request, response)
 } 
 else {
