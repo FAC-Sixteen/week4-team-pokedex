@@ -9,7 +9,8 @@ const getCommonNames = require('./getCommonNames');
 
 function handlerJSON(request, response){
     const input = request.url.split('=')[1];
-    // console.log(input);
+    console.log(input);
+    if(plantArr.clonePlantArr().length === 0) {
     fs.readFile(__dirname + "/JSON/plants.json", function(error, file) {
         if (error) {
           console.log(error);
@@ -23,6 +24,13 @@ function handlerJSON(request, response){
         response.writeHead(200, {"Content-Type":"application/json"});
         response.end(autoComplete);
       });
+    } else {
+      const autoComplete = autoFilter(input);
+
+        response.writeHead(200, {"Content-Type":"application/json"});
+        response.end(autoComplete);
+
+    }
 }
 
 module.exports = handlerJSON;

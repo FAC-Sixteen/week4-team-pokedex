@@ -13,10 +13,8 @@ const autoFilter = input => {
     plantArr.addPlantArr(filtered);
   }
   const ar = plantArr.clonePlantArr();
-  if (ar[ar.length - 1].length > 5) {
+    console.log(JSON.stringify(ar[ar.length - 1].slice(0, 5)));
     return JSON.stringify(ar[ar.length - 1].slice(0, 5));
-  }
-  return JSON.stringify(ar[ar.length - 1]);
 };
 
 module.exports = autoFilter;
