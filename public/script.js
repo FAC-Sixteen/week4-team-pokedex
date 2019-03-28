@@ -16,6 +16,6 @@ const sendUrl = `/query=${inputValue}`;
 });
 
 
-const input = document.getElementsByName('plants');
-const optionElem = document.createElement("option");
+// const input2 = document.getElementsByName('plants');
+// const optionElem = document.createElement("option");
 // optionElem.textContent = 
