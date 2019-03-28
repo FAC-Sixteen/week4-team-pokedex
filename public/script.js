@@ -7,7 +7,6 @@ const sendUrl = `/query=${inputValue}`;
   xhr.onreadystatechange = function() {
     if (xhr.readyState === 4) {
       if (xhr.status === 200) {
-    
       }
     }
   };
@@ -15,3 +14,8 @@ const sendUrl = `/query=${inputValue}`;
   xhr.open("GET", sendUrl, true);
   xhr.send(inputValue);
 });
+
+
+const input = document.getElementsByName('plants');
+const optionElem = document.createElement("option");
+// optionElem.textContent = 

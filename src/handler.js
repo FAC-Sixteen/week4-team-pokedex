@@ -6,7 +6,7 @@ function handler(request, response) {
   const types = {
     html: "text/html",
     css: "text/css",
-    js: "applications/javascript",
+    js: "application/javascript",
     ico: "image/x-icon",
     json: "application/json",
     jpg: "image/jpeg"
