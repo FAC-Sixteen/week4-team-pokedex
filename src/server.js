@@ -4,7 +4,7 @@ const handlerJSON = require("./handlerJSON");
 
 const server = http.createServer(handler);
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 7000;
 
 server.listen(port, function() {
   console.log(
