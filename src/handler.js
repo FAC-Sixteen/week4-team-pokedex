@@ -1,7 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-const jungle = require("jungle.js");
-const sliceVegetables = require("sliceVegetables");
 
 function handler(request, response) {
   const endpoint = request.url;
@@ -21,14 +19,6 @@ function handler(request, response) {
         return;
       }
       response.end(file);
-    });
-  } else if (endpoint === "/plants") {
-    fs.readFile(__dirname + "/JSON/plants.json", function(error, file) {
-      if (error) {
-        console.log(error);
-        return;
-      }
-      response.end(JSON.parse(file));
     });
   } else {
     const filePath = path.join(__dirname, "..", "public", endpoint);
