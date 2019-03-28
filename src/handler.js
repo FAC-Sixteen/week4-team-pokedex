@@ -7,7 +7,7 @@ function handler(request, response) {
         html: 'text/html',
         css: 'text/css',
         js: 'applications/javascript',
-        ico: "text/x-icon"
+        ico: "image/x-icon"
     }
     const extension = endpoint.split('.')[1]; 
         if (endpoint === '/') {
