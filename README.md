@@ -87,6 +87,13 @@ We started off by drawing our software archetecture.
 
 ---
 
+### Google Audit
+
+![](https://i.imgur.com/jXFHZjp.png)
+
+
+---
+
 ### Preview
 
 ![screenshot](https://i.imgur.com/5K1PmTx.png)
