@@ -17,7 +17,10 @@
         <h1 class="heading">Rosmarin</h1>
     <form action="/aplace/wherewewanttoprocessthisdata" method="GET">
       <div id="searchContainer">
-      <input id="inputBox" ="plants" name="plants" placeholder="search">
+      <input list="plant_names" id ="inputBox" name="plants" placeholder="search">
+      <datalist class="plant_names" id="plant_names">
+        <option value="default">search for plants here</option>
+      </datalist>
       <a class="button" href="#">
         <svg id="icons" class="button-icons" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         width="485.213px" height="485.213px" viewBox="0 0 485.213 485.213" style="enable-background:new 0 0 485.213 485.213;"
@@ -43,9 +46,6 @@
 	c-116.949,54.976-141.504,175.467-141.504,266.88C234.603,443.434,229.866,448.199,224,448.235z"/>
          </svg></a>
         </div>
-      <datalist class="plant_names">
-        <option value="default">search for plants here</option>
-      </datalist>
     </form>
     </div>
     <script src="script.js"></script>
