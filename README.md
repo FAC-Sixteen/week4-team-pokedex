@@ -1,10 +1,10 @@
-# week4-team-pokedex
-Rosmarinus is an autocomplete widget for plant common names. 
+# PROJECT WEEK 4 FAC
+
+Rosmarin is a website/widget that enables users to quickly find and select words from a list of suggestions, as they type.
+The list is dynamically generated from a pre-populated list of values of plant names, leveraging searching and filtering.
+A large plant.json file searched through. 
 
 This project is hosted live on : https://rosmarinus.herokuapp.com/
-
-
-# PROJECT WEEK 4
 
 This entire project summarised in a gif
 
@@ -22,11 +22,7 @@ Kate @dubhcait
 
 ### The Project: Rosmarinus
 
-Aim to make Autocomplete website/widget
-
-A website that enables users to quickly find and select words from a list of suggestions, as they type.
-The list is dynamically generated from a pre-populated list of values of plant names, leveraging searching and filtering.
-A large plant.json file searched through.
+Aim to make Autocomplete website/widget for plant common names.
 
 Rosmarinus is the latin name for rosemary. 
 Rosemary for the plant but also the association with remembrance. 
