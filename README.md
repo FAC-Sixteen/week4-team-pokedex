@@ -22,7 +22,7 @@ Banna @bantek89
 
 Kate @dubhcait
 
-### The Project: Rosmarinus
+### The Project
 
 Aim to make Autocomplete website/widget for plant common names.
 
