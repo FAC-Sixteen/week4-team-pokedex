@@ -1,7 +1,6 @@
 
 let input = document.getElementById("inputBox");
 
-
 input.addEventListener("input", function(e) {
   const dataList = document.getElementsByClassName("plant_names")[0];
   const inputValue = e.target.value;
