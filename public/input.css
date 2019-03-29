@@ -9,16 +9,17 @@ input {
     left: 50%;
     padding: 20px 15px;
     padding-right: 70px;
-    margin: 0 55px;
+    margin: 0;
     margin-right: 60px;
     box-sizing: border-box;  
-    /* margin: 5vw; */
     width: 50vw;
+    min-width: 250px;
     border: 4px solid #BA7BFF;
     border-radius: 5px;  
     -webkit-transition: width 0.5s ease-in-out;
     transition: width 0.5s ease-in-out;
     font-size: 130%;
+    font-family: "Roboto Mono";
 }
 
 input:focus {
@@ -26,8 +27,13 @@ input:focus {
     border: 4px solid #388E3C;
 }
 
+#inputBox {
+    margin-top: 10px;
+}
+
 .button {
     padding: 10px;
+    padding-top: 20px;
     background: transparent;
     position: absolute;
     right: 70px;

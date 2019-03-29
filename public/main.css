@@ -3,10 +3,19 @@
   padding: 0;
 }
 
+body {
+  background-image: url('cactus-drawing-succulent-5.png');
+  background-repeat: no-repeat;
+  background-position-x: 0;
+  background-position-y: 0;
+}
+
+
+
 .img {
   /* width: 100vw; */
   /* height: 100vh; */
-  object-fit: cover;
+  /* object-fit: cover; */
   /* position: absolute; */
   /* bottom: 0; */
 }
@@ -17,4 +26,6 @@
   font-size: 50px;
   padding: 0;
   margin: 0;
+  margin-bottom: -10px;
+  font-family: "Roboto Mono";
 }
