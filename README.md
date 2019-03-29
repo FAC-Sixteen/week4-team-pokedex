@@ -87,7 +87,7 @@ We started off by drawing our software archetecture.
 
 ---
 
-### public/img/Preview
+### Preview
 
 ![screenshot](https://i.imgur.com/5K1PmTx.png)
 
