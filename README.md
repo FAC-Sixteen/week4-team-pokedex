@@ -1,4 +1,6 @@
-# PROJECT WEEK 4 FAC
+# Rosmarinus
+
+This repo contains our team project for Week 4 of Founders and Coders. 
 
 Rosmarin is a website/widget that enables users to quickly find and select words from a list of suggestions, as they type.
 The list is dynamically generated from a pre-populated list of values of plant names, leveraging searching and filtering.
