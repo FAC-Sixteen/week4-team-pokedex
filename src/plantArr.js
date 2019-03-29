@@ -1,8 +1,4 @@
-
-
 let plantArr = [];
-
-
 
 const clonePlantArr = () => {
   return [...plantArr];
