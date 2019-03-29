@@ -71,7 +71,7 @@ We started off by drawing our software archetecture.
 
 ### What did we learn?
 
-![node in a nutshell](https://media.giphy.com/media/82CItLnbSh8hzsXK3H/giphy.gif)
+![node in a nutshell](https://media.giphy.com/media/82CItLnbSh8hzsXK3H/giphy-downsized-large.gif)
 
 * The horror of everything node
 * naming is abstraction, naming your functions is understanding them.
