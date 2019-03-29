@@ -1,13 +1,26 @@
+
 let input = document.getElementById("inputBox");
 
-input.addEventListener("change", function(e) {
+
+input.addEventListener("input", function(e) {
+  const dataList = document.getElementsByClassName("plant_names")[0];
   const inputValue = e.target.value;
   const sendUrl = `/query=${inputValue}`;
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function() {
     if (xhr.readyState === 4) {
       if (xhr.status === 200) {
-        console.log(JSON.parse(xhr.response));
+        const response = JSON.parse(xhr.response);
+        for (var i = 0; i < response.length;i++){
+          const optionElem = document.createElement("option");
+          // console.log(response);
+          optionElem.textContent = response[i];
+          optionElem.setAttribute(
+            "aria-label",
+            "list option: " + optionElem.textContent
+          );
+          dataList.appendChild(optionElem);
+        }
       }
     }
   };
@@ -16,6 +29,3 @@ input.addEventListener("change", function(e) {
   xhr.send(inputValue);
 });
 
-// const input2 = document.getElementsByName('plants');
-// const optionElem = document.createElement("option");
-// optionElem.textContent =
