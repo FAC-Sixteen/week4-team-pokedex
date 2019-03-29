@@ -1,6 +1,6 @@
 let input = document.getElementById("inputBox");
 
-input.addEventListener("change", function(e) {
+input.addEventListener("input", function(e) {
   const inputValue = e.target.value;
   const sendUrl = `/query=${inputValue}`;
   var xhr = new XMLHttpRequest();
