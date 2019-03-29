@@ -1,6 +1,8 @@
 # week4-team-pokedex
 autocomplete widget for plant common names
 
+https://rosmarinus.herokuapp.com/
+
 
 # PROJECT WEEK 4
 
@@ -33,7 +35,15 @@ We used https://trefle.io/ API. It was an easy API to use, one signing up you we
 
 ### How to set up our project
 
-That is a work in progress, we deployed a dummy html on heroku.com. 
+1. git clone `https://github.com/FAC-Sixteen/week4-team-pokedex.git` 
+2. cd in
+3. `npm i`
+4. `npm start` to run the project
+5. `npm run go` to run a live server
+6. `npm test` for tests
+7. `npm live-test` for live tests
+
+the project in its current state currently console logs the autocomplete.
 
 
 
@@ -51,12 +61,14 @@ That is a work in progress, we deployed a dummy html on heroku.com.
 
 ### What did we learn?
 
-s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+* The horror of everything node
 
 ---
 
 ### Stretch goals
-s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+* giving you info on the searched plant
+* 
 
 ---
 
